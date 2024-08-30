@@ -1,0 +1,31 @@
+/* .results-list {
+    width: 100%;
+    background-color: aquamarine;
+    
+    
+    box-shadow: 0px 0px 8px #ddd;
+    border-radius: 10px;
+    margin-top: 1rem;
+    max-height: 300px;
+    overflow: scroll;
+} */
+
+/* SearchResult.css */
+
+.results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto 20px;
+  
+
+    
+    }
+  
+  .results-list > * {
+    flex: 1;
+  }
+  
